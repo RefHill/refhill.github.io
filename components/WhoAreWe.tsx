@@ -5,41 +5,14 @@ import { Linkedin, Twitter, Github, ArrowUpRight } from 'lucide-react';
 const WhoAreWe = () => {
     const team = [
         {
-            name: 'Alex Morgan',
+            name: 'Federico Gerardi',
             role: 'CEO & Founder',
-            bio: 'Visionary leader. Previously led AI research at DeepMind.',
+            bio: "Federico is a Master's Degree Student and Research Assistant at Sapienza University of Rome",
             image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300&h=300',
-            socials: { twitter: '#', linkedin: '#' },
-            colSpan: 'md:col-span-2',
+            socials: { twitter: '#', linkedin: '#', github: undefined },
+            colSpan: 'md:col-span-3',
             bg: 'bg-zinc-900'
-        },
-        {
-            name: 'Sarah Chen',
-            role: 'CTO',
-            bio: 'Neural network architect. 15 patents in computer vision.',
-            image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=300&h=300',
-            socials: { github: '#', linkedin: '#' },
-            colSpan: 'md:col-span-1',
-            bg: 'bg-zinc-800'
-        },
-        {
-            name: 'Marcus Johnson',
-            role: 'Head of Design',
-            bio: 'Former Apple Industrial Designer. Obsessed with detail.',
-            image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=300&h=300',
-            socials: { twitter: '#', linkedin: '#' },
-            colSpan: 'md:col-span-1',
-            bg: 'bg-zinc-800'
-        },
-        {
-            name: 'Emily Davis',
-            role: 'Lead Engineer',
-            bio: 'Full-stack wizard. Building the backbone of the metaverse.',
-            image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=300&h=300',
-            socials: { github: '#', twitter: '#' },
-            colSpan: 'md:col-span-2',
-            bg: 'bg-zinc-900'
-        },
+        }
     ];
 
     return (

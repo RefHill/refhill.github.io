@@ -5,32 +5,14 @@ import { ArrowRight, ChevronRight } from 'lucide-react';
 const Products = () => {
     const products = [
         {
-            id: 'vision-pro-x',
-            name: 'Vision Pro X',
-            tagline: 'Reality, reimagined.',
-            description: 'The most advanced AR headset ever created. Featuring dual 8K micro-OLED displays, spatial audio, and a titanium alloy frame that disappears the moment you put it on.',
-            price: 'From $999',
-            image: '/images/vision-pro-x.png',
+            id: 'sofa',
+            name: 'SOFA',
+            tagline: 'Step on Foot Analyzer',
+            description: 'An intelligent assistant for referees that automatically detects step-on-foot fouls. It analyzes match footage to objectively identify when a player steps on an opponent\'s foot, helping to ensure fair play and reduce game interruptions caused by long VAR reviews.',
+            price: 'Coming Soon',
+            image: '/images/sofa-logo.png',
             align: 'left'
-        },
-        {
-            id: 'vision-lens',
-            name: 'Vision Lens',
-            tagline: 'Invisible intelligence.',
-            description: 'Smart contact lenses that overlay your digital life onto the physical world. Bio-compatible, all-day comfort, and powered by the heat of your eyes.',
-            price: 'From $499',
-            image: '/images/vision-lens.png',
-            align: 'right'
-        },
-        {
-            id: 'vision-watch',
-            name: 'Vision Watch',
-            tagline: 'Control at your fingertips.',
-            description: 'The perfect companion. Control your Vision devices with subtle gestures. A holographic display that floats above your wrist.',
-            price: 'From $299',
-            image: '/images/vision-watch.png',
-            align: 'left'
-        },
+        }
     ];
 
     return (
@@ -66,7 +48,7 @@ const Products = () => {
                                 transition={{ duration: 0.8 }}
                                 className="flex-1 relative"
                             >
-                                <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/10 to-transparent opacity-20 blur-3xl rounded-full" />
+                                <div className="absolute inset-0 bg-gradient-to-b from-[#FF5722]/10 to-transparent opacity-20 blur-3xl rounded-full" />
                                 <img
                                     src={product.image}
                                     alt={product.name}
@@ -82,7 +64,7 @@ const Products = () => {
                                 className="flex-1 space-y-8"
                             >
                                 <div>
-                                    <h3 className="text-yellow-500 font-semibold text-lg mb-2 tracking-wide uppercase">{product.name}</h3>
+                                    <h3 className="text-[#FF5722] font-semibold text-lg mb-2 tracking-wide uppercase">{product.name}</h3>
                                     <h4 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">{product.tagline}</h4>
                                     <p className="text-xl text-gray-400 leading-relaxed font-light">
                                         {product.description}
@@ -95,7 +77,7 @@ const Products = () => {
                                         Buy Now
                                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                     </button>
-                                    <a href="#" className="group flex items-center gap-2 text-yellow-400 hover:text-yellow-300 transition-colors">
+                                    <a href="#" className="group flex items-center gap-2 text-[#FF5722] hover:text-[#F4511E] transition-colors">
                                         Learn more <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                                     </a>
                                 </div>
