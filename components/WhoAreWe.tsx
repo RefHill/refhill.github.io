@@ -8,7 +8,7 @@ const WhoAreWe = () => {
             name: 'Federico Gerardi',
             role: 'CEO & Founder',
             bio: "Federico is a Master's Degree Student and Research Assistant at Sapienza University of Rome",
-            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300&h=300',
+            image: 'https://fegerar.github.io/images/profile.png',
             socials: { twitter: '#', linkedin: '#', github: undefined },
             colSpan: 'md:col-span-3',
             bg: 'bg-zinc-900'
